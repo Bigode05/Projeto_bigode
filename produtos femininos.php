@@ -14,6 +14,7 @@
 						<li><a href="produtos 2.php">Produtos</a></li>
 						<li><a href="contato.php">Contato</a></li>
 						<li><a href="formulario.php">Login</a></li>
+						<li><a href="carrinho.php"><img class="car" src="logos e fundos/car.jpg" alt=""></a></li>
 					</ul>
 				</nav>
 			</div>
@@ -24,7 +25,6 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: 'Poppins', sans-serif;
 }
 header{
 	background-color: #000000;
@@ -45,6 +45,9 @@ body
 
 	background-image: url(banner/banner8.png);
 	text-align: center;
+}
+.car{
+  width: 60%;
 }
 
 nav{

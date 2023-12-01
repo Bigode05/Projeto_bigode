@@ -17,6 +17,7 @@
 			<li><a href="produtos 2.php">Produtos</a></li>
 			<li><a href="contato.php">Contato</a></li>
 			<li><a href="formulario.php">Login</a></li>
+			<li><a href="carrinho.php"><img class="car" src="logos e fundos/car.jpg" alt=""></a></li>
 		</ul>
 	</nav>
 		</div>
@@ -24,6 +25,11 @@
 </body>
 <body> 
 	<style>
+		{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
 	body{
 	background-color:rgb(46, 45, 45);
 		}
@@ -34,6 +40,9 @@
 	padding: 40px ;
 	margin-top: 20px;
 
+}
+.car{
+  width: 60%;
 }
 
 footer .r{

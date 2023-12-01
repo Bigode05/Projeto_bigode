@@ -14,6 +14,7 @@
 						<li><a href="produtos 2.php">Produtos</a></li>
 						<li><a href="contato.php">Contato</a></li>
 						<li><a href="formulario.php">Login</a></li>
+						<li><a href="carrinho.php"><img class="car" src="logos e fundos/car.jpg" alt=""></a></li>
 					</ul>
 				</nav>
 			</div>
@@ -24,7 +25,6 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: 'Poppins', sans-serif;
 }
 header{
 	background-color: #000000;
@@ -33,7 +33,8 @@ header{
 	justify-content: center;
 	font-weight: bold;
     font-size: 26px;
-}
+	margin: 0;
+	}
 .caixa{
 	width: 100%;
 	display: flex;
@@ -46,7 +47,9 @@ body
 	background-image: url(banner/banner8.png);
 	text-align: center;
 }
-
+.car{
+  width: 60%;
+}
 nav{
 	display: flex;
 	align-items: center;
@@ -150,7 +153,7 @@ li {
 			<ul class="produtos">
 				<li>
 					<h2>Blusas</h2>
-					<a href="blusas.html">
+					<a href="blusas.php">
 					<img src="blusa/blusa 1.jpg" height="210px"></a>
 					<p class="produto-descricao">Blusas</p>
 					<h1>Clique em saber mais para mais Produtos</h1>
@@ -158,7 +161,7 @@ li {
 				</li>
 			    <li>
 					<h2>Conjunto</h2>
-					<a href="conjuntos.html">
+					<a href="conjuntos.php">
 					<img src="conjuntos/kit 10.jpg" height="210px"></a>
 					<p class="produto-descricao">Conjuntos</p>
 					<h1>Clique em saber mais para mais Produtos</h1>
@@ -166,14 +169,14 @@ li {
 				</li>
 				<li>
 					<h2>Shorts</h2>
-					<a href="shorts.html">
+					<a href="shorts.php">
 					<img src="shorts/img4.jpeg"height="210px"></a>
 					<p class="produto-descricao">Shorts Nike</p>
 					<h1>Clique em saber mais para mais Produtos</h1>
 					<button><a href="shorts.php">Mais Shorts</a></button></li>
 				<li>
 					<h2>Camisa</h2>
-					<a href="camisa.html">
+					<a href="camisa.php">
 					<img src="camisas/img 17 tr.jfif" height="210px"></a>
 					<p class="produto-descricao">Camisa </p>
 					<h1>Clique em saber mais para mais Produtos</h1>
@@ -181,7 +184,7 @@ li {
 				</li>
 				<li>
 					<h2>Chuteiras</h2>
-					<a href="chuteira.html">
+					<a href="chuteira.php">
 					<img src="chuteiras/chuteira 14.jpg" height="210px";></a>
 					<p class="produto-descricao">Chuteiras</p>
 					<h1>Clique em saber mais para mais Produtos</h1>
@@ -189,7 +192,7 @@ li {
 				</li>
 				<li>
 					<h2>Meias</h2>
-				    <a href="meias.html">
+				    <a href="meias.php">
 					<img src="meias/img7.jpg" height="210px";></a>
 					<p class="produto-descricao">Meias</p>
 					<h1>Clique em saber mais para mais Produtos</h1>
@@ -197,7 +200,7 @@ li {
 				</li>
 				<li>
 					<h2>Calças</h2>
-					<a href="calças.html">
+					<a href="calças.php">
 					<img src="calças/img5.jpeg" height="210px";></a>
 					<p class="produto-descricao">Calças Esportivas</p>
 					<h1>Clique em saber mais para mais Produtos</h1>
@@ -205,7 +208,7 @@ li {
 				</li>
 				<li>
 					<h2>Bolas</h2>
-					<a href="bolas.html">
+					<a href="bolas.php">
 					<img src="bolas/bolas 1.jpg" height="210px";></a>
 					<p class="produto-descricao">Bolas vários Esportes</p>
 					<h1>Clique em saber mais para mais Produtos</h1>
@@ -213,7 +216,7 @@ li {
 				</li>
 				<li>
 					<h2>Boné</h2>
-					<a href="boné.html">
+					<a href="boné.php">
 					<img src="boné/Boné 1.jpg" height="210px";></a>
 					<p class="produto-descricao">bonés</p>
 					<h1>Clique em saber mais para mais Produtos</h1>
@@ -221,7 +224,7 @@ li {
 				</li>
 				<li>
 					<h2>Bolsa</h2>
-					<a href="bolsas.html">
+					<a href="bolsas.php">
 					<img src="bolsas/Bolsa 1.jpg" height="210px";></a>
 					<p class="produto-descricao">Bolsas</p>
 					<h1>Clique em saber mais para mais Produtos</h1>
@@ -229,7 +232,7 @@ li {
 				</li>
 				<li>
 					<h2>Relógio</h2>
-					<a href="relogios.html">
+					<a href="relogios.php">
 					<img src="relogio/relogio.jpg" height="210px";></a>
 					<p class="produto-descricao">Relógio moderno</p>
 					<h1>Clique em saber mais para mais Produtos</h1>
@@ -237,7 +240,7 @@ li {
 				</li>
 				<li>
 					<h2>Luvas</h2>
-					<a href="luva.html">
+					<a href="luva.php">
 					<img src="luvas/luva.jpg" height="210px";></a>
 					<p class="produto-descricao">Luva Goleiro</p>
 					<h1>Clique em saber mais para mais Produtos</h1>
@@ -245,7 +248,7 @@ li {
 				</li>
 				<li>
 					<h2>Tenis</h2>
-					<a href="tenis.html">
+					<a href="tenis.php">
 					<img src="tenis/tenis.jpg" height="210px";></a>
 					<p class="produto-descricao">Tenis esportivo</p>
 					<h1>Clique em saber mais para mais Produtos</h1>
@@ -253,7 +256,7 @@ li {
 				</li>
 				<li>
 					<h2>Academia</h2>
-					<a href="academia.html">
+					<a href="academia.php">
 					<img src="Academia/Academia.jpeg" height="210px";></a>
 					<p class="produto-descricao">Academia</p>
 					<h1>Clique em saber mais para mais Produtos</h1>
@@ -261,7 +264,7 @@ li {
 				</li>
 				<li>
 					<h2>Garrafas</h2>
-					<a href="garrafa.html">
+					<a href="garrafa.php">
 					<img src="garrafa/garrafa1.jpg" height="210px";></a>
 					<p class="produto-descricao">Garrafas</p>
 					<h1>Clique em saber mais para mais Produtos</h1>
@@ -269,7 +272,7 @@ li {
 				</li>
 				<li>
 					<h2>Munhequeira</h2>
-					<a href="munhequeira.html">
+					<a href="munhequeira.php">
 					<img src="munhequeira/munhequeira24.jpg" height="210px";></a>
 					<p class="produto-descricao">Munhequeira</p>
 					<h1>Clique em saber mais para mais Produtos</h1>
@@ -277,7 +280,7 @@ li {
 				</li>
 				<li>
 					<h2>Bandana</h2>
-					<a href="bandana.html">
+					<a href="bandana.php">
 					<img src="bandana/bandana22.jpg" height="210px";></a>
 					<p class="produto-descricao">Bandana</p>
 					<h1>Clique em saber mais para mais Produtos</h1>
@@ -285,7 +288,7 @@ li {
 				</li>
 				<li>
 					<h2>Chinelo</h2>
-					<a href="chinelo.html">
+					<a href="chinelo.php">
 					<img src="chinelo/chinelo.jpg" height="210px";></a>
 					<p class="produto-descricao">Chinelos</p>
 					<h1>Clique em saber mais para mais Produtos</h1>
